@@ -179,7 +179,7 @@ playlist:
 
 # If set to true, when the ipThrottle and lastguestlogin rate limiters are cleared
 # periodically, the garbage collector will be invoked immediately.
-# The server must be invoked with node --expose-gc index.js for this to have any effect.
+# The server must be invoked with node --expose-gc index.old.js for this to have any effect.
 aggressive-gc: false
 
 # If you have ffmpeg installed, you can query metadata from raw files, allowing
